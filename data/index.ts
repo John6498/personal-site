@@ -49,7 +49,7 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Currently working on a Defi protocol",
+        title: "Currently working on a Tensorflow target",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,31 +72,31 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "AI Expense Tracker",
-        des: "A web application for tracking personal finance with AI integration.",
-        img: "/expense.png",
-        link: "https://expense-tracker-phi-wine.vercel.app/",
+        title: "Healthcare insurance",
+        des: "A web application for looking for services and making appointment bookings.",
+        img: "/hospital.png",
+        link: "https://icare-dental.web.app/",
     },
     {
         id: 2,
-        title: "Klimatee - weather app",
-        des: "A web application that shows weather of different locations including your current location",
-        img: "/klimatee.png",
-        link: "https://klimatee.vercel.app/",
+        title: "Bicycle presentation",
+        des: "My personal website that shows the fashion and current status of bicycles.",
+        img: "/bicycle.png",
+        link: "https://bike-webpage.vercel.app/",
     },
     {
         id: 3,
-        title: "Car Slayer",
-        des: "A blockchain-based NFT game where players can buy, sell, and trade car NFTs using cryptocurrency.",
-        img: "/nft-game.png",
-        link: "https://car-slayer.vercel.app/",
+        title: "Snow Dashboard",
+        des: "A user-friendly dashboard for monitoring currency data, providing real-time insights and analytics.",
+        img: "/snow.png",
+        link: "https://snow-dashboard.netlify.app/",
     },
     {
         id: 4,
-        title: "Stakify",
-        des: "A decentralized application that allows users to stake tokens and earn rewards on the Polygon blockchain.",
-        img: "/stakify.png",
-        link: "https://stakify-rose.vercel.app/",
+        title: "Treadright tire",
+        des: "A full service shop platform that offers a wide selection of name brand tires, wheels, and tire services.",
+        img: "/car.png",
+        link: "https://www.treadrightmobiletire.com/",
     },
 ];
 
@@ -169,14 +169,28 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: "Blockchain Developer",
-        desc: "Build full-stack blockchain applications, from smart contracts to front-end interfaces using Solidity & React.js",
+        title: "Web Developer",
+        desc: "Build full-stack web applications, from backend services to front-end interfaces using Next.js & React.js",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Blockchain Intern",
+        title: "Laravel Engineer",
+        desc: "Implemented various REST API endpoints for Vue.js Frontend side and Laravel Backend side.",
+        className: "md:col-span-2", // change to md:col-span-2
+        thumbnail: "/exp2.svg",
+    },
+    {
+        id: 3,
+        title: "Front-End Developer",
+        desc: "Translated figma design into pixel-perfect front-end interfaces using TailwindCSS.",
+        className: "md:col-span-2",
+        thumbnail: "/exp1.svg",
+    },
+    {
+        id: 4,
+        title: "Full-Stack Engineer",
         desc: "Assisted in developing tokenomics for a new cryptocurrency project.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
@@ -187,16 +201,16 @@ export const socialMedia = [
     {
         id: 1,
         img: "/git.svg",
-        link: "https://www.github.com/nirban256"
+        link: "/"
     },
     {
         id: 2,
         img: "/twit.svg",
-        link: "https://x.com/NirbanChakrab10"
+        link: "/"
     },
     {
         id: 3,
         img: "/link.svg",
-        link: "https://www.linkedin.com/in/nirban-chakraborty/"
+        link: "/"
     },
 ];

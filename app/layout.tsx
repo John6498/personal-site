@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+// The stylesheet is processed by Next.js; TypeScript may not have a declaration for CSS imports.
+// @ts-expect-error Next.js handles this side-effect stylesheet import at build time.
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nirban's Portfolio",
+  title: "John's Portfolio",
   description: "My portfolio made with Next.js, TypeScript and Tailwind CSS",
 };
 
