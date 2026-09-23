@@ -31,12 +31,8 @@ const Hero = () => {
 
                     <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Transforming concepts into seamless user experiences' />
 
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I&apos;m Nirban, a Full Stack developer based in India.
-                    </p>
-
                     <a href="#projects">
-                        <MagicButton title='Share my Work' icon={<FaLocationArrow />} position='right' />
+                        <MagicButton title='My Projects' icon={<FaLocationArrow />} position='right' />
                     </a>
                 </div>
             </div>
